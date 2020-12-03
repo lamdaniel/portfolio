@@ -19,7 +19,6 @@
     <header>
       <div id="home">
       <div class="topnav" id="myTopnav">
-        <a href="#home" onclick="closeNavigation()">home</a>
         <a href="#about" onclick="closeNavigation()">about</a>
         <a href="#portfolio" onclick="closeNavigation()">portfolio</a>
         <a href="#contact" onclick="closeNavigation()">contact</a>
@@ -31,8 +30,10 @@
       <h1>daniel lam</h1>
 
       <video autoplay muted loop id="myVideo">
-        <source src="videos/clouds.webm" type="video/webm">        Your browser does not support HTML5 video.
+        <source src="videos/clouds.webm" type="video/webm">        
+          Your browser does not support HTML5 video.
       </video>
+
     </div>
     </header>
 
@@ -40,7 +41,7 @@
     <div id="about">
       <h1>About Me</h1>
       <p>Based in <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <strong>Auckland, New Zealand</strong>. I am a<br><strong><span></span></strong> that is focused on creating brilliant works for my clients.
+        <strong>Auckland, New Zealand</strong>. I am a<br><strong><span></span></strong> that is focused on creating brilliant works.
         <br>
         <br>
         <a href="#portfolio"><u>View my projects</u></a>
@@ -58,13 +59,14 @@
     </div>
 
     <div id="contact">
-      <h1>Contact Me</h1>
+      <h1>Contact</h1>
       <h2>I occasionally take on new and interesting opportunities.</h2>
-      
+      <br>
+
       <form>
         <div id="name">
           <label for="fname">Name *</label><br>
-            <input type="text" placeholder=" First name" name="fname">
+            <input type="text" style="margin-right: 2%;"placeholder=" First name" name="fname">
             <input type="text" placeholder=" Last name" name="fname">
         </div>
 
@@ -76,7 +78,7 @@
           <input type="text" id="fname" placeholder=" Subject" name="fname"><br>
 
           <label for="fname">Message *</label><br>
-          <input type="text" id="fname" placeholder=" Message" name="fname"><br>
+          <input type="text" style="height: 120px;" id="fname" placeholder=" Message" name="fname"><br>
         </div>
 
         <input type="submit" value="SUBMIT">
@@ -88,11 +90,11 @@
     <footer>
       <table>
         <th>
-          <a href="https://www.facebook.com/danielthelamb">
+          <a href="https://www.facebook.com/danielthelamb" target="_blank">
             <i class="fa fa-facebook" aria-hidden="true"></i></a>
         </th>
         <th>
-          <a href="https://www.instagram.com/daniel_the_lamb"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/daniel_the_lamb" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 
         </th>
       </table>
